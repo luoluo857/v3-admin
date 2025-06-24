@@ -1,0 +1,14 @@
+node_modules
+dist
+*.local
+.eslintrc.cjs
+commitlint.config.cjs
+.prettierrc.cjs
+*.svg
+*.sh
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+.husky
+.vscode
+.idea 

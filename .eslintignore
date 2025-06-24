@@ -1,0 +1,9 @@
+node_modules
+dist
+*.local
+.eslintrc.cjs
+commitlint.config.cjs
+.prettierrc.cjs
+*.d.ts
+*.svg
+*.sh 
