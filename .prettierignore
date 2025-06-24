@@ -1,9 +1,6 @@
-node_modules
-dist
+node_modules/
+dist/
 *.local
-.eslintrc.cjs
-commitlint.config.cjs
-.prettierrc.cjs
 *.svg
 *.sh
 pnpm-lock.yaml
@@ -12,3 +9,5 @@ yarn.lock
 .husky
 .vscode
 .idea 
+*.log
+*.d.ts
