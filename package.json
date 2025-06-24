@@ -1,5 +1,5 @@
 {
-  "name": "v3-temp",
+  "name": "v3-admin",
   "version": "0.0.0",
   "private": true,
   "type": "module",
@@ -71,6 +71,6 @@
     }
   },
   "cz-customizable": {
-    "config": ".cz-config.js"
+    "config": ".cz-config.json"
   }
 }
