@@ -19,7 +19,6 @@
 - **代码规范：**
   - ESLint
   - Prettier
-  - Stylelint
   - Husky (Git Hooks)
   - Commitizen (规范化提交)
 
@@ -43,7 +42,6 @@
 ├── .env                 # 环境变量
 ├── .eslintrc.js         # ESLint配置
 ├── .prettierrc          # Prettier配置
-├── .stylelintrc.js      # Stylelint配置
 ├── vite.config.js       # Vite配置
 └── package.json         # 项目依赖
 ```
@@ -53,7 +51,7 @@
 - 🚀 基于 Vue3 + Vite，享受极速开发体验
 - 📦 自动导入 Element Plus 组件，无需手动引入
 - 🎨 集成 Tailwind CSS，快速构建美观界面
-- 🔍 ESLint + Prettier + Stylelint，代码规范自动化
+- 🔍 ESLint + Prettier，代码规范自动化
 - 📝 Git 提交信息规范化，支持 conventional commits
 - 🛠️ 封装 Axios 请求，统一错误处理
 - 🔐 路由权限控制
@@ -63,10 +61,12 @@
 ## 项目特色
 
 ### 动态路由系统
+
 - 基于菜单配置的动态路由生成
 - 支持路由权限控制
 
 ### 完整的业务模块
+
 - **系统管理**：用户、角色、菜单管理
 - **内容管理**：文章、分类管理
 - **设置中心**：第三方服务、存储配置
@@ -74,6 +74,7 @@
 - **日志中心**：登录、操作日志
 
 ### Mock数据系统
+
 - 完整的Mock API
 - 支持增删改查操作
 - 便于前端独立开发
@@ -156,6 +157,7 @@ pnpm commit
 ## 部署
 
 1. 执行构建命令
+
 ```bash
 pnpm build
 ```
@@ -164,7 +166,7 @@ pnpm build
 
 ## 注意事项
 
-- 开发时注意查看 ESLint 和 Stylelint 的错误提示
+- 开发时注意查看 ESLint 的错误提示
 - 提交代码前确保通过所有代码检查
 - 使用 `pnpm commit` 来规范化提交信息
 - 根据需要修改 `.env` 文件中的环境变量
